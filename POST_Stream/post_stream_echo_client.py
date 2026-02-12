@@ -24,7 +24,3 @@ response = httpx.post(
     # content= accepts a generator → sends body chunk-by-chunk
     content=chunks()
 )
-
-
-# Print the JSON response returned by the server
-print(response.json())
