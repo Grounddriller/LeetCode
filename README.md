@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Grounddriller/LeetCode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Grounddriller/LeetCode/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/Grounddriller/LeetCode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Grounddriller/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Grounddriller/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Grounddriller/LeetCode/tree/master/0057-insert-interval) |
 ## Binary Search
@@ -137,11 +138,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Grounddriller/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Grounddriller/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Grounddriller/LeetCode/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/Grounddriller/LeetCode/tree/master/0055-jump-game) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Grounddriller/LeetCode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/Grounddriller/LeetCode/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/Grounddriller/LeetCode/tree/master/0055-jump-game) |
 ## Trie
 |  |
 | ------- |
