@@ -57,14 +57,15 @@ async def ws_proxy(client_ws: WebSocket, symbol: str):
             # Extract first ticker object
             ticker = data["data"][0]
 
-            # Build simplified JSON to send to YOUR client
+            # Build JSON to send to client
             simplified = {
                 "symbol": ticker["instId"],        # Trading pair (BTC-USDT)
                 "price": ticker["last"],           # Last traded price per 1 BTC
                 "trade_time_ms": int(ticker["ts"]) # Timestamp in milliseconds
             }
 
-            # Send simplified ticker to connected client
+            # Send ticker to connected client
             await client_ws.send_text(json.dumps(simplified))
+
 
 # Run the server: python -m uvicorn ticker_server:app
