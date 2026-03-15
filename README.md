@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Grounddriller/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Grounddriller/LeetCode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Grounddriller/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Grounddriller/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Grounddriller/LeetCode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/Grounddriller/LeetCode/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/Grounddriller/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Grounddriller/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
