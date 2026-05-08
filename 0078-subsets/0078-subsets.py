@@ -1,18 +1,20 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        res = []
-        subset = []
+        result = []
 
-        def create_subset(i):
-            if i == len(nums):
-                res.append(subset[:])
+        if not nums:
+            return []
+
+        def backtrack(index, path):
+            if index == len(nums):
+                result.append(path[:])
                 return
 
-            subset.append(nums[i])
-            create_subset(i + 1)
+            path.append(nums[index])
+            backtrack(index + 1, path)
+            path.pop()
 
-            subset.pop()
-            create_subset(i + 1)
-        
-        create_subset(0)
-        return res
+            backtrack(index + 1, path)
+
+        backtrack(0, [])
+        return result
